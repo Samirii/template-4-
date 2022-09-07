@@ -1,0 +1,223 @@
+ html {
+     scroll-behavior: smooth;
+ }
+
+ ul {
+     list-style: none;
+ }
+
+ a {
+     text-decoration: none;
+     color: black;
+     font-size: 21px;
+ }
+
+ body {
+     font-family: 'Cairo', sans-serif;
+ }
+
+ .container {
+     padding: 0px 58px;
+ }
+
+ .header {
+     margin: -9px;
+ }
+
+ .header .container {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .header .container .logo span {
+     margin-right: 14px;
+ }
+
+ .header .container .nav {
+     display: flex;
+ }
+
+ .header .container .nav li {
+     margin-left: 30px;
+ }
+
+ .header .container .nav li:hover {
+     background-color: #ccc;
+ }
+
+ .landing img {
+     max-width: 100%;
+
+ }
+
+ .landing .klma .br {
+     color: white;
+     background-color: rgb(0 0 0 / 75%);
+     padding: 1px 21px;
+ }
+
+ .landing .klma .a {
+     color: #fffffffa;
+     font-weight: normal;
+     margin-left: 16px;
+ }
+
+ .landing .klma {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translateX(-50%);
+ }
+
+ .project .container {
+     display: grid;
+     grid-template-columns: repeat(auto-fill, minmax(289px, 1fr));
+     gap: 17px;
+ }
+
+
+
+ .project .container .box img {
+     max-width: 100%;
+ }
+
+ .project .container .box {
+     position: relative;
+ }
+
+ .main-head {
+     border-bottom: 1px solid;
+     margin-left: 25px;
+     font-size: 20px;
+     margin-bottom: 45px;
+ }
+
+ .project {
+     padding-top: 100px;
+     padding-bottom: 100px;
+ }
+
+ .project .container .box h3 {
+     position: absolute;
+     top: -10%;
+     background-color: black;
+     color: white;
+     font-size: 17px;
+     padding: 2px 13px;
+     font-weight: normal;
+ }
+
+ .about .text {
+     margin: -22px;
+     font-size: 18px;
+     line-height: 2;
+     font-weight: bold;
+ }
+
+ .about .boxs {
+     display: flex;
+ }
+
+ .about .boxs .box {
+     padding-right: 25px;
+     margin-top: 56px;
+ }
+
+ .about .boxs .box img {
+     max-width: 100%;
+ }
+
+ .about .boxs .box h2 {
+     font-size: 23px;
+     font-weight: normal;
+     margin: 8px 0px;
+ }
+
+ .about .boxs .box h3 {
+     opacity: 0.60;
+     font-size: 18px;
+     font-weight: normal;
+     margin: -5px 0px;
+ }
+
+ .about .boxs .box p {
+     line-height: 1.4;
+     font-weight: 700;
+ }
+
+ .about .boxs .box p button {
+     display: block;
+     width: 100%;
+     margin: 11px 0px;
+     font-size: 17px;
+     border: #f1f1f1 !important;
+     padding: 9px;
+     border-radius: 2px;
+
+ }
+
+
+
+
+
+ .contact {
+     padding-top: 100px;
+     padding-bottom: 100px;
+
+ }
+
+ .contact form input {
+     width: 100%;
+     margin-bottom: 20px;
+     padding: 12px 9px;
+     font-size: 16px;
+     font-weight: 700;
+     border: 1px solid #ccc;
+ }
+
+
+
+ .contact form button {
+     background-color: black;
+     color: white;
+     padding: 8px 16px;
+     font-size: 18px;
+ }
+
+ .contact form button:hover {
+     background-color: #ccc;
+     border: solid #ccc;
+     color: black;
+ }
+
+ @media(max-width:767px) {
+     .landing {
+         width: 509px;
+         height: 121vh;
+     }
+
+
+     .landing img {
+         max-width: 104%;
+         height: 131vh;
+     }
+
+     .project {
+         width: 487px;
+     }
+
+     .about {
+         width: 487px;
+     }
+
+     .about .boxs {
+         width: 454px;
+         position: relative;
+         left: -20px;
+     }
+
+     .contact {
+         width: 487px;
+     }
+ }
